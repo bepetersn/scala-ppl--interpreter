@@ -7,4 +7,4 @@ to run `jupyter notebook` yourself and pass the `--NotebookApp.allow_origin=http
 
     jupyter notebook --NotebookApp.allow_origin=https://8888-$(echo $GITPOD_WORKSPACE_URL | cut -d '/' -f 3)
 
-I've also sometimes needed to pass the `--ip=0.0.0.0` option to get the server visible, or so I thought. git
+I've also sometimes needed to pass the `--ip=0.0.0.0` option to get the server visible, or so I thought. 
