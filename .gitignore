@@ -4,3 +4,6 @@ env
 *.log
 .ipynb_checkpoints
 
+.metals
+.vscode
+
